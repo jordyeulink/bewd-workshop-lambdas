@@ -20,6 +20,7 @@ public class Main {
         mijnReis.simuleerReis(vervoer);                   // Met fiets
         mijnReis.simuleerReis(new AutoVervoerStrategy()); // Met auto
         mijnReis.simuleerReis(new OVVervoerStrategy());   // Met OV
+        mijnReis.simuleerReis(new TeleportatieVervoerStrategy());   // via teleporteren
 
         System.out.println("Met <nieuw> vervoer (Stap 2)  ");
         System.out.println("TODO:");
